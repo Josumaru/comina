@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Comina" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorPrimary">@color/blue</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="fontFamily">@font/lexend_regular</item>
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="Theme.Comina.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_share</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Comina</item>
+    </style>
+    <style name="Theme.Comina" parent="Base.Theme.Comina" />
+
+</resources>

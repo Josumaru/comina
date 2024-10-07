@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_tensei_shitara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_shadow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".view.home.HomeActivity">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/about_page"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="50dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_profile"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv_greeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:text="Good Morning👋 Joko Supriyanto!"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toEndOf="@+id/about_page"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="6dp"
+                android:text="Tensei Shitara has been released"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toEndOf="@+id/about_page"
+                app:layout_constraintTop_toBottomOf="@+id/tv_greeting" />
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="250dp"
+                android:text="TV"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="250dp"
+                android:text="24m"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/tv_type"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_resolution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="250dp"
+                android:text="HDR"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/tv_duration"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_release_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="250dp"
+                android:text="2014"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/tv_resolution"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Tensei Shitara Slime Datta Ken"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_type" />
+
+            <Button
+                android:id="@+id/genre_start"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Fantasy"
+                app:layout_constraintTop_toBottomOf="@id/tv_title"
+                android:layout_marginStart="16dp"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                app:layout_constraintStart_toStartOf="parent"
+                android:padding="0dp"
+                android:textStyle="normal"
+                android:textFontWeight="100"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/genre_second"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Action"
+                app:layout_constraintTop_toBottomOf="@id/tv_title"
+                android:layout_marginStart="16dp"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                app:layout_constraintStart_toEndOf="@id/genre_start"
+                android:padding="0dp"
+                android:textStyle="normal"
+                android:textFontWeight="100"
+                android:textColor="@color/white"
+                />
+            <Button
+                android:id="@+id/genre_last"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Isekai"
+                app:layout_constraintTop_toBottomOf="@id/tv_title"
+                android:layout_marginStart="16dp"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                app:layout_constraintStart_toEndOf="@id/genre_second"
+                android:padding="0dp"
+                android:textStyle="normal"
+                android:textFontWeight="100"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_watch_now"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Watch now"
+                android:elevation="8dp"
+                android:drawableEnd="@drawable/ic_play"
+                android:textColor="@color/white"
+                android:drawableTint="@color/white"
+                android:backgroundTint="@color/blue"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@id/genre_start"/>
+
+            <Button
+                android:id="@+id/btn_plus"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_add"
+                android:textColor="@color/black"
+                android:drawableTint="@color/white"
+                app:layout_constraintStart_toEndOf="@id/btn_watch_now"
+                android:layout_marginStart="16dp"
+                style="@style/Widget.Material3.Button.IconButton.Outlined"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@id/genre_start"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trending"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_watch_now"
+                android:paddingStart="16dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/tv_trending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See all"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintTop_toBottomOf="@id/btn_watch_now"
+                android:layout_marginTop="16dp"
+                android:gravity="center"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_anime"
+                android:layout_marginBottom="32dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_trending" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

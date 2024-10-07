@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Comina</string>
+    <string name="share">Share</string>
+    <string name="details">Details</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="trending">Trending</string>
+
+    <!-- Titles -->
+    <string-array name="data_titles">
+        <item>Tensei Shitara Slime Datta Ken</item>
+        <item>Yuri no Hajimari wa Dorei Kara</item>
+        <item>I Am a Max-level Priestess in Another World</item>
+        <item>Tokidoki Bosotto Roshia-go de Dereru Tonari no Alya-san</item>
+        <item>Koi wa Futago de Warikirenai</item>
+        <item>Kimi ga Hoeru Tame no Uta wo</item>
+        <item>Houkago Kitaku Biyori</item>
+        <item>Make Heroine ga Oosugiru!</item>
+        <item>One Piece</item>
+        <item>Classroom of the Elite</item>
+        <item>SPY×FAMILY</item>
+    </string-array>
+
+    <!-- Ratings -->
+    <string-array name="data_ratings">
+        <item>7.5</item>
+        <item>8.3</item>
+        <item>8.8</item>
+        <item>8.9</item>
+        <item>9.3</item>
+        <item>9.0</item>
+        <item>9.4</item>
+        <item>8.7</item>
+        <item>9.2</item>
+        <item>8.6</item>
+        <item>9.1</item>
+    </string-array>
+
+    <!-- Authors -->
+    <string-array name="data_authors">
+        <item>Fuse</item>
+        <item>Desuyama Hanako</item>
+        <item>Miko Mikura</item>
+        <item>SunSunSun</item>
+        <item>Kojima Mikuni</item>
+        <item>Harao Shin</item>
+        <item>Matsuda Mai</item>
+        <item>Nakajima Chizuru</item>
+        <item>Oda Eiichiro</item>
+        <item>Shogo Kinugasa</item>
+        <item>Tatsuya Endo</item>
+    </string-array>
+
+    <!-- Release Dates -->
+    <string-array name="data_release_dates">
+        <item>2018-04-02</item>
+        <item>2021-11-05</item>
+        <item>2022-07-10</item>
+        <item>2020-09-12</item>
+        <item>2019-06-22</item>
+        <item>2023-02-14</item>
+        <item>2016-03-19</item>
+        <item>2020-08-14</item>
+        <item>1999-10-20</item>
+        <item>2017-07-12</item>
+        <item>2019-10-05</item>
+    </string-array>
+
+    <!-- Images (tanpa @drawable) -->
+    <string-array name="data_images">
+        <item>@drawable/img_tensei_shitara</item>
+        <item>@drawable/img_yuri_no</item>
+        <item>@drawable/img_i_am</item>
+        <item>@drawable/img_tokidoki_bosotto</item>
+        <item>@drawable/img_koi_wa</item>
+        <item>@drawable/img_kimi_ga</item>
+        <item>@drawable/img_houkago_kitaku</item>
+        <item>@drawable/img_make_heroine</item>
+        <item>@drawable/img_one_piece</item>
+        <item>@drawable/img_classroom_of</item>
+        <item>@drawable/img_spy_family</item>
+    </string-array>
+
+    <!-- Genres -->
+    <string-array name="data_genres">
+        <item>Action, Fantasy, Isekai</item>
+        <item>Yuri, Romance, Drama</item>
+        <item>Adventure, Fantasy, Magic</item>
+        <item>Romance, Comedy, Slice of Life</item>
+        <item>Romance, Drama</item>
+        <item>Drama, Music, Supernatural</item>
+        <item>Slice of Life, Comedy</item>
+        <item>Comedy, Romance, Harem</item>
+        <item>Action, Adventure, Shonen</item>
+        <item>Psycological, Drama, School</item>
+        <item>Action, Comedy, Spy</item>
+    </string-array>
+
+    <!-- Descriptions -->
+    <string-array name="data_descriptions">
+        <item>Satoru Mikami, seorang pekerja kantoran berusia 37 tahun yang hidup di Tokyo, merasa hidupnya monoton dan tidak berarti. Dia tidak pernah menikah, tidak memiliki banyak teman, dan pekerjaannya yang berulang-ulang membuatnya merasa hampa. Pada suatu hari, hidupnya berubah drastis ketika ia secara tak terduga terbunuh oleh seorang perampok di tengah jalan. Namun, alih-alih menuju akhir hidup, Satoru bereinkarnasi di dunia lain sebagai makhluk yang tak terduga: slime, makhluk lemah dan tanpa wujud. Meski terlahir kembali sebagai slime, Satoru menyadari bahwa ia memiliki kemampuan unik yang memungkinkannya menyerap kemampuan musuh dan mempelajari berbagai keterampilan dari mereka. Dengan kemampuan yang tampaknya tak terbatas, Satoru, yang kini menyebut dirinya Rimuru Tempest, memulai perjalanannya di dunia fantasi ini dengan tekad untuk membangun dunia di mana semua ras bisa hidup berdampingan dengan damai. Dalam perjalanan ini, Rimuru bertemu dengan berbagai makhluk, mulai dari naga legendaris bernama Veldora yang menjadi teman dekatnya, hingga kelompok goblin yang meminta perlindungannya. Dengan memanfaatkan kemampuan uniknya, Rimuru membantu banyak orang dan menciptakan federasi monster yang kuat. Namun, tantangan besar menghadangnya, mulai dari kekuatan manusia yang ingin menaklukkan dunia monster, hingga para iblis kuat yang memiliki ambisi gelap mereka sendiri. Rimuru harus berjuang untuk melindungi teman-temannya, menghadapi musuh-musuh baru, dan terus berkembang menjadi makhluk yang lebih kuat, sambil tetap mempertahankan jati dirinya dan keinginannya untuk menciptakan dunia yang damai. Ini adalah kisah tentang kekuatan, persahabatan, dan perjalanan seorang slime yang bertransformasi dari makhluk lemah menjadi raja yang tak tertandingi di dunia fantasi yang penuh dengan sihir dan misteri.</item>
+        <item>Yuri no Hajimari wa Dorei Kara adalah sebuah kisah emosional yang berlatar di dunia di mana perbudakan masih menjadi bagian dari struktur sosial masyarakat. Di tengah dunia yang keras dan penuh intrik, kita bertemu dengan seorang gadis muda bernama Celia, seorang bangsawan dari keluarga terpandang yang memiliki semua hal yang diinginkan dalam hidupnya — kekayaan, status, dan kekuasaan. Namun, di balik semua itu, Celia merasa hampa dan terjebak dalam kehidupannya yang diatur oleh ekspektasi keluarganya dan tuntutan masyarakat kelas atas. Dia selalu merasa bahwa ada sesuatu yang hilang dalam hidupnya, sesuatu yang lebih besar daripada sekadar menjalani hidup sebagai boneka keluarga bangsawan. Suatu hari, takdir mempertemukan Celia dengan seorang mantan budak bernama Lilith. Lilith telah menghabiskan seluruh hidupnya dalam perbudakan, mengalami penderitaan dan kesulitan yang tak terhitung jumlahnya. Setelah bertahun-tahun hidup dalam bayang-bayang ketakutan dan penindasan, Lilith akhirnya mendapatkan kebebasannya, namun kebebasan itu datang dengan harga yang mahal — trauma mendalam yang sulit dihilangkan. Celia, yang awalnya hanya merasa kasihan pada Lilith, perlahan-lahan mulai mengembangkan hubungan yang lebih dalam dengannya. Persahabatan mereka tumbuh, dan dari sana berkembanglah perasaan yang lebih kompleks. Hubungan mereka menjadi lebih dari sekadar simpati antara seorang bangsawan dan mantan budak, melainkan sebuah ikatan cinta yang penuh dengan emosi, tantangan, dan rintangan. Namun, dunia di sekitar mereka tidak begitu mudah menerima cinta mereka. Mereka harus menghadapi prasangka sosial, ancaman dari pihak yang tidak senang dengan kebebasan Lilith, dan tekanan dari keluarga Celia yang menolak hubungannya dengan seorang mantan budak. Di tengah semua rintangan ini, Celia dan Lilith berjuang untuk menemukan tempat mereka di dunia yang keras dan kejam ini, mencari kebahagiaan di tengah ketidakadilan, dan membuktikan bahwa cinta bisa tumbuh bahkan di tempat-tempat yang paling gelap. Kisah ini adalah perjalanan emosional yang mendalam tentang cinta, kebebasan, dan perjuangan melawan penindasan dalam semua bentuknya.</item>
+        <item>I Am a Max-level Priestess in Another World menceritakan tentang seorang pendeta wanita yang tiba-tiba terbangun di dunia yang sama sekali berbeda dari tempat asalnya. Berasal dari dunia modern di mana sihir hanyalah cerita dongeng, dia menemukan dirinya terdampar di dunia fantasi yang penuh dengan sihir, monster, dan pahlawan legendaris. Sebagai seorang wanita yang tidak memiliki pengalaman dalam pertempuran atau strategi, awalnya dia merasa sangat kebingungan dan takut dengan situasi barunya. Namun, dia segera menyadari bahwa tubuhnya di dunia baru ini memiliki kekuatan yang sangat besar — kekuatan seorang pendeta tingkat maksimal. Dengan kemampuan penyembuhan yang hampir tidak terbatas, serta berbagai macam sihir pendukung lainnya, dia menjadi salah satu individu paling kuat di dunia ini. Meski kekuatannya luar biasa, dia harus belajar bagaimana menggunakannya dengan bijak. Perjalanan ini dipenuhi dengan berbagai macam tantangan dan konflik, baik dari luar maupun dari dalam dirinya sendiri. Di dunia yang penuh dengan ancaman, mulai dari monster raksasa hingga kerajaan yang ingin menggunakan kekuatannya untuk keuntungan mereka, pendeta ini harus membuat keputusan sulit tentang siapa yang bisa dia percaya dan bagaimana dia akan menggunakan kekuatannya untuk kebaikan. Sepanjang perjalanan, dia bertemu dengan berbagai sekutu, termasuk pahlawan pemberani, penyihir cerdik, dan bahkan beberapa musuh yang akhirnya menjadi teman. Meski banyak yang mengaguminya karena kekuatannya, dia sering merasa terisolasi dan kesepian, terjebak antara perannya sebagai penyelamat dan hasratnya untuk hidup normal. Dalam perjalanan ini, dia tidak hanya bertarung melawan ancaman fisik, tetapi juga mencari jawaban tentang siapa dirinya sebenarnya dan mengapa dia dipilih untuk menjalani kehidupan yang begitu luar biasa. Kisah ini mengeksplorasi tema kekuatan, tanggung jawab, dan pentingnya hubungan manusia, bahkan di dunia yang penuh dengan sihir dan bahaya.</item>
+        <item>Tokidoki Bosotto Roshia-go de Dereru Tonari no Alya-san adalah sebuah komedi romantis yang berfokus pada hubungan unik antara dua karakter utama, Alya dan tetangganya yang selalu ingin tahu tentangnya. Alya adalah seorang gadis cantik dengan rambut panjang berwarna perak yang selalu berbicara dengan lembut dalam bahasa Rusia. Meski kelihatan dingin dan pendiam di luar, Alya sebenarnya memiliki sisi yang sangat hangat dan manis. Tetangganya, seorang pria muda yang diam-diam jatuh cinta padanya, selalu penasaran dengan apa yang Alya katakan dalam bahasa Rusia. Awalnya, dia menganggap Alya sebagai gadis yang tidak tertarik padanya atau pada siapa pun, tetapi seiring berjalannya waktu, dia mulai menyadari bahwa setiap kata yang Alya ucapkan dalam bahasa Rusia sebenarnya mengandung pesan-pesan cinta yang terselubung. Humor dan romansa dalam cerita ini berkembang dari kesalahpahaman-kesalahpahaman kecil yang terjadi di antara mereka, serta dinamika antara seorang pria yang tidak terlalu memahami bahasa Rusia dan seorang gadis yang menggunakan bahasa itu untuk mengekspresikan perasaannya. Kisah ini menggambarkan bagaimana cinta bisa berkembang dalam situasi yang tidak terduga, dan bagaimana komunikasi, meskipun terkadang terhalang oleh bahasa, tetap bisa menemukan jalannya.</item>
+        <item>Koi wa Futago de Warikirenai adalah kisah segitiga cinta yang kompleks dan penuh emosi, berfokus pada hubungan antara dua saudara kembar yang sangat dekat dan satu orang yang mereka berdua cintai. Saudara kembar tersebut, Yuu dan Yui, memiliki ikatan yang sangat kuat, bahkan sejak kecil mereka selalu bersama dan melakukan segala sesuatu bersama-sama. Namun, ketika mereka berdua mulai jatuh cinta pada orang yang sama, hubungan mereka mulai retak. Kisah ini mengeksplorasi dinamika yang rumit dari cinta segitiga, di mana kedua saudara ini harus menghadapi kenyataan bahwa mereka tidak bisa selalu berbagi segalanya, termasuk perasaan mereka terhadap orang yang mereka cintai. Di sisi lain, orang yang menjadi pusat perhatian mereka merasa terjebak di antara dua saudara yang tidak hanya sangat mirip secara fisik, tetapi juga memiliki kepribadian yang sangat berbeda. Drama emosional berkembang ketika ketiganya harus memutuskan bagaimana melanjutkan hubungan mereka tanpa menghancurkan ikatan yang telah mereka bangun selama bertahun-tahun. Ini adalah kisah tentang cinta, pengorbanan, dan bagaimana hubungan yang paling dekat sekalipun bisa diuji oleh perasaan romantis.</item>
+        <item>Kimi ga Hoeru Tame no Uta wo adalah sebuah kisah mendalam tentang seorang gadis muda bernama Rin yang memiliki kemampuan luar biasa untuk menyanyi. Namun, suaranya tidak hanya indah, melainkan memiliki kekuatan magis yang dapat mempengaruhi dunia di sekitarnya. Setiap kali dia menyanyikan lagu tertentu, dunia berubah, dan makhluk-makhluk supernatural muncul, termasuk serigala yang selalu melolong saat bulan purnama. Rin, yang merasa sendirian dan tidak dimengerti oleh orang-orang di sekitarnya, menggunakan suaranya untuk mencoba menghentikan penderitaan yang dia rasakan. Namun, semakin dia menggunakan kekuatannya, semakin besar pula konsekuensi yang harus dia hadapi. Serigala-serigala yang datang setiap kali dia bernyanyi membawa pesan-pesan gelap dari dunia lain, dan Rin harus berjuang untuk memahami arti di balik kehadiran mereka serta hubungan antara nyanyiannya dan dunia supernatural ini. Kisah ini adalah perjalanan emosional tentang penemuan diri, kekuatan yang tersembunyi, dan bagaimana seseorang dapat menemukan tujuan hidupnya di tengah kegelapan yang mengelilinginya. Dengan latar belakang yang magis dan penuh misteri, ini adalah cerita tentang bagaimana suara bisa menjadi alat yang kuat untuk perubahan, baik di dunia maupun di hati seseorang.</item>
+        <item>Houkago Kitaku Biyori menceritakan tentang sekelompok remaja yang menjadikan waktu pulang sekolah sebagai momen-momen istimewa dalam kehidupan mereka. Di tengah kesibukan sekolah dan tekanan akademis yang seringkali menguras energi, mereka menemukan kenyamanan dan kebahagiaan dalam petualangan sederhana setelah bel pulang berbunyi. Setiap hari, setelah jam sekolah usai, mereka tidak langsung pulang ke rumah. Sebaliknya, mereka berkumpul dan melakukan berbagai kegiatan kecil namun bermakna, seperti menjelajahi lingkungan sekitar, mengunjungi toko-toko kecil, berbincang tentang mimpi dan masa depan mereka, atau sekadar bersantai di taman. Meski kegiatan mereka terkesan biasa saja, bagi mereka, ini adalah saat-saat di mana persahabatan mereka tumbuh lebih dalam. Kisah ini tidak hanya berfokus pada hal-hal besar, melainkan pada detail-detail kecil dalam kehidupan sehari-hari yang sering kali terabaikan, namun begitu penting. Dari tawa yang dibagi hingga dukungan emosional di saat salah satu dari mereka menghadapi masalah, Houkago Kitaku Biyori adalah potret hangat dari kehidupan remaja yang mencoba menikmati setiap momen dalam perjalanan mereka menuju kedewasaan. Di balik kesederhanaan cerita ini, tersimpan makna mendalam tentang arti kebahagiaan dan persahabatan sejati, di mana setiap momen bersama adalah petualangan yang tidak akan mereka lupakan.</item>
+        <item>Make Heroine ga Oosugiru! adalah sebuah komedi romantis yang penuh dengan dinamika unik antara karakter utamanya, seorang pemuda biasa yang tiba-tiba menemukan dirinya dikelilingi oleh banyak gadis yang ingin menjadi tokoh utama dalam hidupnya. Di sekolah, di rumah, dan bahkan di tempat-tempat yang paling tidak terduga, selalu ada seseorang yang muncul, berharap untuk menjadi pilihan hatinya. Namun, meskipun situasinya terlihat menyenangkan dan penuh dengan perhatian, kenyataannya tidaklah sesederhana itu. Setiap gadis memiliki kepribadian, latar belakang, dan tujuan yang berbeda, membuat pilihan tersebut menjadi sangat sulit. Setiap keputusan yang dia buat bisa berdampak besar pada hubungannya dengan yang lain, dan dia menyadari bahwa dia tidak bisa menyenangkan semua orang. Dalam perjalanannya, dia belajar bahwa cinta bukan hanya tentang memilih seseorang yang paling menarik secara fisik atau paling baik dalam hal keterampilan tertentu, tetapi tentang menemukan seseorang yang benar-benar memahami dan menerima dirinya apa adanya. Dengan berbagai situasi lucu dan tak terduga, Make Heroine ga Oosugiru! adalah kisah tentang perjalanan emosional seorang pemuda dalam mencari cinta sejati di tengah-tengah lautan pilihan, dan tentang bagaimana pilihan yang kita buat tidak selalu mudah, tetapi seringkali merupakan bagian dari proses menemukan jati diri.</item>
+        <item>One Piece adalah kisah epik yang menceritakan perjalanan Monkey D. Luffy, seorang pemuda dengan kemampuan unik setelah memakan Buah Iblis, yang bercita-cita menjadi Raja Bajak Laut. Dengan keinginan yang kuat dan hati yang penuh dengan impian, Luffy memulai petualangannya di lautan luas untuk menemukan One Piece, harta karun legendaris yang dapat menjadikannya Raja Bajak Laut. Sepanjang perjalanan, Luffy tidak sendirian; dia merekrut anggota kru yang kuat dan beragam, masing-masing dengan latar belakang dan impian mereka sendiri. Mereka adalah Zoro, seorang pendekar pedang yang bercita-cita menjadi yang terkuat di dunia; Nami, seorang navigator ulung dengan impian menggambar peta seluruh dunia; Sanji, seorang koki yang ingin menemukan All Blue, lautan legendaris; dan banyak lagi. Setiap pulau yang mereka kunjungi menyimpan rahasia, musuh, dan tantangan baru. Dari bajak laut saingan, angkatan laut, hingga kekuatan misterius dari berbagai Buah Iblis, dunia One Piece dipenuhi dengan petualangan yang tak ada habisnya. Namun, di balik semua pertempuran dan petualangan yang menantang, Luffy dan kru Topi Jerami tetap setia pada impian mereka dan persahabatan yang mengikat mereka. Kisah ini tidak hanya tentang pencarian harta, tetapi juga tentang persahabatan, pengorbanan, dan keyakinan untuk tidak pernah menyerah, apapun rintangan yang mereka hadapi di lautan Grand Line yang penuh misteri dan bahaya.</item>
+        <item>Classroom of the Elite adalah cerita yang berlatar di sekolah elit di mana para siswa tidak hanya bersaing dalam akademis, tetapi juga dalam kekuatan mental dan manipulasi sosial. Akademi Koudo Ikusei adalah sekolah terkemuka di Jepang yang menawarkan fasilitas luar biasa dan janji masa depan cerah bagi siswa-siswanya. Namun, di balik kemewahan itu, tersembunyi sistem yang ketat dan keras. Siswa di sekolah ini tidak hanya dinilai berdasarkan nilai ujian, tetapi juga kemampuan mereka untuk bertahan dalam permainan kekuasaan yang rumit. Kelas dibagi menjadi berbagai tingkatan, dengan Kelas A sebagai puncaknya, tempat para siswa terbaik berada, dan Kelas D, di mana para siswa yang dianggap kurang berprestasi ditempatkan. Ayanokouji Kiyotaka, seorang siswa yang tampak biasa dari Kelas D, menyembunyikan kecerdasannya yang luar biasa. Dengan pendekatan dingin dan penuh perhitungan, dia memanipulasi situasi dari belakang layar, mengarahkan rekan-rekannya untuk mendaki ke puncak hierarki akademi. Namun, di tengah perjuangan untuk mencapai Kelas A, Ayanokouji juga harus menghadapi ancaman dari siswa-siswa lain yang memiliki ambisi serupa, serta rahasia kelam dari masa lalunya yang perlahan terungkap. Classroom of the Elite adalah cerita tentang strategi, kecerdikan, dan bagaimana kekuasaan dapat dimainkan di antara dinding sekolah yang tampaknya damai tetapi penuh dengan intrik.</item>
+        <item>SPY×FAMILY mengisahkan tentang kehidupan agen rahasia yang dikenal dengan nama sandi "Twilight", yang mendapatkan misi paling sulit dalam kariernya: menciptakan keluarga palsu sebagai bagian dari penyamarannya untuk menyusup ke sekolah elit. Namun, tugas ini lebih rumit dari yang dia bayangkan. Untuk menyelesaikan misi ini, Twilight, yang kemudian menyamar sebagai Loid Forger, harus mencari "istri" dan "anak". Dia menemukan seorang gadis kecil bernama Anya di panti asuhan, yang ternyata memiliki kemampuan telepati, dan seorang wanita bernama Yor, yang ternyata adalah seorang pembunuh bayaran. Keluarga Forger yang dibentuk dari kebohongan ini ternyata mulai berkembang menjadi sesuatu yang lebih dari sekadar penyamaran. Meski tidak ada yang tahu rahasia masing-masing, mereka mulai peduli satu sama lain dengan cara yang tak terduga. Di tengah-tengah kebohongan, misi rahasia, dan kehidupan berbahaya, mereka menemukan kehangatan dan kasih sayang keluarga yang sebenarnya. Dengan latar belakang dunia yang penuh dengan intrik mata-mata, SPY×FAMILY adalah cerita tentang cinta, pengorbanan, dan pentingnya hubungan keluarga, meskipun semuanya dimulai dari kebohongan yang rumit.</item>
+    </string-array>
+
+    <!-- Episodes -->
+    <string-array name="data_episodes">
+        <item>24</item>
+        <item>12</item>
+        <item>26</item>
+        <item>13</item>
+        <item>12</item>
+        <item>10</item>
+        <item>12</item>
+        <item>13</item>
+        <item>1000</item>
+        <item>12</item>
+        <item>25</item>
+    </string-array>
+
+    <!-- Status -->
+    <string-array name="data_status">
+        <item>Completed</item>
+        <item>Ongoing</item>
+        <item>Completed</item>
+        <item>Ongoing</item>
+        <item>Completed</item>
+        <item>Completed</item>
+        <item>Completed</item>
+        <item>Completed</item>
+        <item>Ongoing</item>
+        <item>Ongoing</item>
+        <item>Ongoing</item>
+    </string-array>
+
+    <!-- Duration -->
+    <string-array name="data_durations">
+        <item>24</item>
+        <item>22</item>
+        <item>25</item>
+        <item>23</item>
+        <item>24</item>
+        <item>21</item>
+        <item>20</item>
+        <item>22</item>
+        <item>25</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+</resources>
